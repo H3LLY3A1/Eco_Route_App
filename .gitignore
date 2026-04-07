@@ -1,0 +1,47 @@
+# OS / filesystem
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+
+# Backend runtime data
+*.sqlite3
+*.db
+postgres_data/
+
+# Android / Gradle
+.gradle/
+.kotlin/
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
